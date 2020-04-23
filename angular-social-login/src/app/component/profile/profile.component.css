@@ -1,0 +1,8 @@
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://lh3.googleusercontent.com/a-/AOh14GhmAZP5TwIJfaeXbbwCsn4BRAPdi1n2_gnvZIUW7Q');
+    background-size: cover;
+  }

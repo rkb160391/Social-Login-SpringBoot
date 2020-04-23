@@ -13,11 +13,24 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import {MatMenuModule } from '@angular/material/menu';
+import {MatCardModule} from '@angular/material/card';
+import { ProfileComponent } from './component/profile/profile.component';
+import { LoginComponent } from './component/login/login.component'
+import { FormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { HomeComponent } from './component/home/home.component';
+import { ToolbarComponent } from './common/toolbar/toolbar.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavComponent
+    NavComponent,
+    ProfileComponent,
+    LoginComponent,
+    HomeComponent,
+    ToolbarComponent
   ],
   imports: [
     BrowserModule,
@@ -30,6 +43,10 @@ import { MatListModule } from '@angular/material/list';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
+    MatMenuModule,
+    MatCardModule,
+    FormsModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]
